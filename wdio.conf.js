@@ -21,7 +21,7 @@ exports.config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './testScript/script01.js'
+        './script/testLogin_loai3.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -60,7 +60,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'debug',
+    logLevel: 'info',
     //
     // Set specific log levels per logger
     // loggers:
